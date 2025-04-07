@@ -1,0 +1,19 @@
+.diet-list-ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.diet-list-ul li {
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    font-size: 0.95em;
+}
+
+.diet-list-ul li.total-calories {
+    margin-top: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    border-bottom: none;
+}

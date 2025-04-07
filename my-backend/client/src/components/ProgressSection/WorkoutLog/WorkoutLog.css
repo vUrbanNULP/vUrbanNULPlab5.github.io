@@ -1,0 +1,22 @@
+.workout-log {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.workout-log h3 {
+    margin-top: 0;
+}
+
+.log-list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style-type: none;
+}
+
+.log-list li {
+    margin-bottom: 5px;
+}

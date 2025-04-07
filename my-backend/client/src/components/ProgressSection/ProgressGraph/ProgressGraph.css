@@ -1,0 +1,38 @@
+/* src/components/ProgressSection/ProgressGraph/ProgressGraph.css */
+.progress-graph-container {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Keep heading centered */
+    width: 100%; /* Make container full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.progress-graph-container h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.chart-wrapper {
+    position: relative;
+    height: 40vh;
+    min-height: 300px;
+    width: 100%; /* Ensure wrapper takes full width */
+}
+
+.chart-wrapper canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Media query if needed */
+@media (max-width: 768px) {
+    .chart-wrapper {
+        height: 50vh;
+    }
+}

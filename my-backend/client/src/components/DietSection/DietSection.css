@@ -1,0 +1,59 @@
+.diet-section {
+    margin-bottom: 30px;
+}
+
+.diet-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.diet-section p {
+    margin-bottom: 20px;
+}
+
+.diet-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.diet-plan {
+     background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.diet-plan-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.3em;
+    text-align: left;
+    color: #333;
+}
+
+.diet-date-picker {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.diet-date-picker label {
+    font-weight: bold;
+}
+
+.diet-date-picker input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.diet-form-container h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}

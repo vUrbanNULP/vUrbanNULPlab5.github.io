@@ -1,0 +1,32 @@
+.diet-form-container h3 {
+    margin-top: 0;
+     margin-bottom: 20px;
+}
+
+.diet-form .form-field {
+     margin-bottom: 15px;
+}
+
+.diet-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+     color: #555;
+}
+
+.diet-form input[type="text"],
+.diet-form input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.diet-form button.button-primary {
+    margin-top: 15px;
+    width: auto;
+    padding: 10px 20px;
+    display: block;
+}

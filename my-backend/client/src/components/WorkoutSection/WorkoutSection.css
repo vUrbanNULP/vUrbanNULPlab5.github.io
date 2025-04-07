@@ -1,0 +1,36 @@
+.workout-section {
+    margin-bottom: 30px;
+}
+
+.workout-section h2 {
+    margin: 0;
+}
+
+.workout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 480px) {
+    .workout-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.workout-filter {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.workout-filter label {
+    font-weight: bold;
+}
+
+.workout-filter select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
