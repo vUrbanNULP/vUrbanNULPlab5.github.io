@@ -6,7 +6,12 @@ const fs = require('fs');
 
 const app = express();
 
+const rawClientUrl = process.env.CLIENT_URL;
+const clientUrl = rawClientUrl ? rawClientUrl.replace(/\/$/, '') : null;
+
 const allowedOrigins = [
+  rawClientUrl,
+  clientUrl,
   process.env.CLIENT_URL,
   'http://localhost:3000/',
   'http://localhost:5000/',
