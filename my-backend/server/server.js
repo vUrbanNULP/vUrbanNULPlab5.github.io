@@ -75,9 +75,8 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json(errorResponse);
 });
 
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => console.log(`--- Сервер запущено локально на http://localhost:${PORT} ---`));
-}
+console.log("Hello world!");
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`--- Сервер запущено на порті ${PORT} ---`));
 
 //module.exports = app;
