@@ -80,8 +80,8 @@ const request = async (endpoint, method = 'GET', data = null, options = {}) => {
         throw error;
     }
 
-    const url = API_BASE_URL + (endpoint.startsWith('/') ? endpoint : '/' + endpoint);
-    console.log(API_BASE_URL);
+    const url = API_BASE_URL.replace(/\/$/, '') + '/' + endpoint.replace(/^\//, '');
+    //const url = API_BASE_URL + (endpoint.startsWith('/') ? endpoint : '/' + endpoint);
 
     const config = {
         method: method,
